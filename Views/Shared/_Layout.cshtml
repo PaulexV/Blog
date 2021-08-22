@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Verrier</title>
+        <script src="https://kit.fontawesome.com/20efefb864.js" crossorigin="anonymous"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="icon" href="~/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-toggleable-lg border-bottom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/logo.svg"
+                            alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">À
+                                propos de moi</a>
+                            <a class="nav-link" asp-area="" asp-controller="Blog" asp-action="Articles">Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="footer border-top">
+            <div class="container">
+                <ul class="contact-list">
+                    <li><a href="mailto:paulalexis.verrier@ynov.com" class="footer__link"><i
+                                class="fas fa-envelope"></i>
+                            paulalexis.verrier@ynov.com</a></li>
+                    <li><a href="tel:+33666717209" class="footer__link"><i class="fas fa-mobile-alt"></i> 06 66 71 72
+                            09</a></li>
+                </ul>
+                <ul class="social-list">
+                    <li class="social-list__item"><a href="https://github.com/paulexv" class="social-list__link"><i
+                                class="fab fa-github"></i></a>
+                    </li>
+                    <li class="social-list__item"><a href="https://linkedin.com/in/iiiilllliiii/"
+                            class="social-list__link"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+
+</html>
