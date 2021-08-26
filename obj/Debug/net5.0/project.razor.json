@@ -15624,13 +15624,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\Bilan.cshtml",
+      "TargetPath": "Views\\Blog\\Bilan.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\Procedure.cshtml",
+      "TargetPath": "Views\\Blog\\Procedure.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\Presentation.cshtml",
+      "TargetPath": "Views\\Blog\\Presentation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\Workspace.cshtml",
+      "TargetPath": "Views\\Blog\\Workspace.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15644,8 +15664,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\First.cshtml",
-      "TargetPath": "Views\\Blog\\First.cshtml",
+      "FilePath": "c:\\Users\\paul-\\Documents\\Ynov\\Blog\\Views\\Blog\\Missions.cshtml",
+      "TargetPath": "Views\\Blog\\Missions.cshtml",
       "FileKind": "mvc"
     },
     {

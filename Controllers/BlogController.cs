@@ -28,7 +28,23 @@ namespace Blog.Controllers
         {
             return View();
         }
-        public IActionResult First()
+        public IActionResult Presentation()
+        {
+            return View();
+        }
+        public IActionResult Workspace()
+        {
+            return View();
+        }
+        public IActionResult Missions()
+        {
+            return View();
+        }
+        public IActionResult Procedure()
+        {
+            return View();
+        }
+        public IActionResult Bilan()
         {
             return View();
         }
