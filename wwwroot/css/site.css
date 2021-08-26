@@ -438,9 +438,6 @@ h3 {
     margin-top: 5.3em;
     margin-bottom: 5.3em;
   }
-  .my-work {
-    /* margin-bottom: 7.5em; */
-  }
 }
 
 /* My Scholarship */
@@ -599,4 +596,23 @@ h3 {
 
 .btn__art {
   margin-top: -15%;
+}
+
+.top {
+  display: none;
+  position: fixed;
+  background: var(--clr-accent);
+  background-image: url(../img/up-arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  transition: all 0.5s ease;
+}
+
+.top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }

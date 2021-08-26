@@ -18,6 +18,7 @@
 
     <body>
         <header>
+            <div id="top"></div>
             <nav class="navbar navbar-expand-lg navbar-toggleable-lg border-bottom">
                 <div class="container-fluid">
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/logo.svg"
@@ -45,6 +46,8 @@
                 @RenderBody()
             </main>
         </div>
+
+        <a href="#top" class="top"></a>
 
         <footer class="footer border-top">
             <div class="container-fluid">
